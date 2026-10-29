@@ -1,21 +1,21 @@
-# 🎬 CineMatch 2.0 — Movie Recommendation Engine
+# CineMatch 2.0 — Movie Recommendation Engine
 
 A content-based movie recommendation system built with Python that helps users discover movies based on their favourite films, genres, actors, directors, language, and mood.
 
-## ✨ Features
+## Features
 
-- 🔍 **Smart Search:** Search by movie title, genre, actor, director, language, or streaming platform.
-- 🎯 **Movie Recommendations:** Discover similar movies using TF-IDF and cosine similarity.
-- 🎭 **Mood-Based Picks:** Find movies based on your mood, from feel-good comedies to thrillers.
-- 🎬 **Multi-Movie Recommendations:** Select multiple favourite movies to discover recommendations matching your combined preferences.
-- ⚖️ **Movie Comparison:** Compare two movies by genre, cast, director, language, rating, and similarity.
-- 🎲 **Surprise Me:** Get a random movie recommendation.
-- 📌 **Personal Watchlist:** Save movies you want to watch.
-- 🎛️ **Advanced Filters:** Filter by language, platform, and minimum rating.
-- 📊 **Interactive Dashboard:** Explore dataset statistics, ratings, genres, languages, and streaming platforms.
-- ▶️ **Watch Options:** Find official streaming searches, legal viewing options, and movie trailers.
+-  **Smart Search:** Search by movie title, genre, actor, director, language, or streaming platform.
+-  **Movie Recommendations:** Discover similar movies using TF-IDF and cosine similarity.
+-  **Mood-Based Picks:** Find movies based on your mood, from feel-good comedies to thrillers.
+-  **Multi-Movie Recommendations:** Select multiple favourite movies to discover recommendations matching your combined preferences.
+-  **Movie Comparison:** Compare two movies by genre, cast, director, language, rating, and similarity.
+-  **Surprise Me:** Get a random movie recommendation.
+-  **Personal Watchlist:** Save movies you want to watch.
+-  **Advanced Filters:** Filter by language, platform, and minimum rating.
+-  **Interactive Dashboard:** Explore dataset statistics, ratings, genres, languages, and streaming platforms.
+-  **Watch Options:** Find official streaming searches, legal viewing options, and movie trailers.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python
 - **Interface:** Streamlit
@@ -24,7 +24,7 @@ A content-based movie recommendation system built with Python that helps users d
 - **Recommendation Algorithm:** TF-IDF Vectorization and Cosine Similarity
 - **Data Storage:** CSV and JSON files
 
-## 🧠 How It Works
+##  How It Works
 
 1. Each movie is represented by its genre, director, cast, and language.
 2. These features are combined into a text profile, with genres and directors given extra weight.
@@ -32,7 +32,7 @@ A content-based movie recommendation system built with Python that helps users d
 4. Cosine similarity measures how closely the movie profiles match.
 5. The system ranks similar movies and displays recommendations based on the selected movie or preferences.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 movie-recommendation-engine/
@@ -44,7 +44,7 @@ movie-recommendation-engine/
 
 The application also creates `watchlist.json` when saving watchlist data.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -79,11 +79,11 @@ The application also creates `watchlist.json` when saving watchlist data.
 
 5. Open the local URL displayed in your terminal to use CineMatch.
 
-## 📊 Dataset
+##  Dataset
 
 The `movie.csv` file contains the movie metadata used by the recommendation engine, including movie titles, genres, directors, cast, language, platform, ratings, and other descriptive information.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integrate the TMDB API for updated movie information and posters.
 - Add user accounts and personalized profiles.
@@ -91,7 +91,7 @@ The `movie.csv` file contains the movie metadata used by the recommendation engi
 - Improve recommendation quality with user feedback.
 - Deploy the application online for public access.
 
-## 👨‍💻 Project Information
+##  Project Information
 
 **Project:** CineMatch 2.0 — Movie Recommendation Engine  
 **Category:** Python / Machine Learning / Recommendation Systems
